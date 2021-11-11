@@ -1,0 +1,9 @@
+img{
+    width: 100px;
+    height: 100px;
+}
+
+.g-signin2:before{
+    content: 'Login com Google';
+    color: blue;  
+  }
