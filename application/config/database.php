@@ -75,7 +75,7 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 'profaalblopes.info',
+	'hostname' => 'profaalbalopes.info',
 	'username' => 'profaa16_teste',
 	'password' => 'minhasenhasecreta',
 	'database' => 'loja',
