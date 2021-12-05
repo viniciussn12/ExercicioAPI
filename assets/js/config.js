@@ -1,1 +1,1 @@
-BASE_URL = "http://localhost/projeto_apirest"
+BASE_URL = "https://projetoapirest.herokuapp.com/"
