@@ -6,7 +6,6 @@
         function inserir($produto, $preco, $qtd, $codfabricante, $codgrupo){
             $sql = "INSERT INTO produto (produto, preco, qtd, codfabricante, codgrupo) values (?, ?, ?, ?, ?)";
             $dados = array($produto, $preco, $qtd, $codfabricante, $codgrupo);
-            print_r ($dados);
             $this->db->query($sql, $dados);
         }
 
