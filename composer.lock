@@ -31,7 +31,7 @@
                 "phpbench/phpbench": "^0.13 || 1.0.0-alpha2",
                 "phpstan/phpstan": "^0.12",
                 "phpstan/phpstan-phpunit": "^0.12",
-                "phpunit/phpunit": "^7.0"
+                "phpunit/phpunit": "^7.0 || ^8.0 || ^9.0"
             },
             "type": "library",
             "autoload": {
@@ -91,7 +91,7 @@
                 "shasum": ""
             },
             "require": {
-                "php": "7.0.0"
+                "php": "7.0"
             },
             "type": "library",
             "autoload": {
@@ -125,7 +125,7 @@
                 "shasum": ""
             },
             "require": {
-                "php": "7.0.0"
+                "php": "^7.1"
             },
             "replace": {
                 "myclabs/deep-copy": "self.version"
@@ -183,7 +183,7 @@
                 "shasum": ""
             },
             "require": {
-                "php": "7.0.0"
+                "php": "^7.2"
             },
             "type": "library",
             "extra": {
@@ -237,7 +237,7 @@
             },
             "require": {
                 "ext-filter": "*",
-                "php": 7.0.0",
+                "php": "^7.2",
                 "phpdocumentor/reflection-common": "^2.2",
                 "phpdocumentor/type-resolver": "^1.3",
                 "webmozart/assert": "^1.9.1"
@@ -292,7 +292,7 @@
                 "shasum": ""
             },
             "require": {
-                "php": "7.0.0",
+                "php": "^7.2",
                 "phpdocumentor/reflection-common": "^2.0"
             },
             "require-dev": {
@@ -342,7 +342,7 @@
             },
             "require": {
                 "doctrine/instantiator": "^1.0.2",
-                "php": "7.0.0",
+                "php": "^5.3|^7.0",
                 "phpdocumentor/reflection-docblock": "^2.0|^3.0.2|^4.0|^5.0",
                 "sebastian/comparator": "^1.2.3|^2.0|^3.0|^4.0",
                 "sebastian/recursion-context": "^1.0|^2.0|^3.0|^4.0"
@@ -410,7 +410,7 @@
             "require": {
                 "ext-dom": "*",
                 "ext-xmlwriter": "*",
-                "php": "7.0",
+                "php": "^5.6 || ^7.0",
                 "phpunit/php-file-iterator": "^1.3",
                 "phpunit/php-text-template": "^1.2",
                 "phpunit/php-token-stream": "^1.4.2 || ^2.0",
@@ -573,7 +573,7 @@
                 "shasum": ""
             },
             "require": {
-                "php": "7.0"
+                "php": "^5.3.3 || ^7.0"
             },
             "require-dev": {
                 "phpunit/phpunit": "^4.8.35 || ^5.7 || ^6.0"
@@ -1190,7 +1190,7 @@
                 "shasum": ""
             },
             "require": {
-                "php": "7.0.0",
+                "php": "7.0",
                 "sebastian/recursion-context": "~2.0"
             },
             "require-dev": {
@@ -1240,7 +1240,7 @@
                 "shasum": ""
             },
             "require": {
-                "php": "7.0.0"
+                "php": "7.0"
             },
             "require-dev": {
                 "phpunit/phpunit": "~4.4"
@@ -1297,7 +1297,7 @@
                 "shasum": ""
             },
             "require": {
-                "php": "7.0.0"
+                "php": "7.0"
             },
             "type": "library",
             "extra": {
@@ -1343,7 +1343,7 @@
                 "shasum": ""
             },
             "require": {
-                "php": "7.0.0"
+                "php": "7.0"
             },
             "type": "library",
             "extra": {
@@ -1390,7 +1390,7 @@
                 "shasum": ""
             },
             "require": {
-                "php": "7.0.0"
+                "php": ">=7.1"
             },
             "suggest": {
                 "ext-ctype": "For best performance"
@@ -1469,7 +1469,7 @@
                 "shasum": ""
             },
             "require": {
-                "php": "7.0.0",
+                "php": ">=7.1.3",
                 "symfony/polyfill-ctype": "~1.8"
             },
             "conflict": {
@@ -1540,7 +1540,7 @@
                 "shasum": ""
             },
             "require": {
-                "php": "^7.0.0",
+                "php": "^7.2",
                 "symfony/polyfill-ctype": "^1.8"
             },
             "conflict": {
@@ -1590,7 +1590,7 @@
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
-        "php": "7.0.0",
+        "php": "7.0",
         "ext-ftp": "*"
     },
     "platform-dev": [],
