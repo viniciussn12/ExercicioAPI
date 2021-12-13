@@ -45,7 +45,11 @@ class Produto extends RestController{
 
     public function index_put($id){
         $produto = $this->put("produto");
-        $this->FabricanteModel->atualizar($id, $produto, $preco, $qtd, $codfabricante, $codgrupo);
+        $preco = $this->put("preco");
+        $qtd = $this->put("qtd");
+        $codfabricante = $this->put("codfabricante");
+        $codgrupo = $this->put("codgrupo");
+        $this->ProdutoModel->atualizar($id, $produto, $preco, $qtd, $codfabricante, $codgrupo);
         $resultado["status"]=true;
         $resultado["messagem"]="Dados atualizados com sucesso";
         $this->response($resultado, RestController::HTTP_OK);
