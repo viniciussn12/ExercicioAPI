@@ -28,8 +28,8 @@ class Cliente extends RestController{
     }
 
     public function index_post(){
-        $cliente = $this->input->post("Cliente");
-        $this->ClienteModel->inserir($Cliente);
+        $cliente = $this->input->post("cliente");
+        $this->ClienteModel->inserir($cliente);
         $resultado["status"]=true;
         $resultado["mensagem"]="Dados inseridos com sucesso!";
         $this->response($resultado, RestController::HTTP_OK);
