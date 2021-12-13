@@ -22,7 +22,7 @@
                 "shasum": ""
             },
             "require": {
-                "php": "7.4"
+                "php": "7.4.26"
             },
             "require-dev": {
                 "doctrine/coding-standard": "^8.0",
@@ -91,7 +91,7 @@
                 "shasum": ""
             },
             "require": {
-                "php": "7.4"
+                "php": ">=5.3.0"
             },
             "type": "library",
             "autoload": {
@@ -125,7 +125,7 @@
                 "shasum": ""
             },
             "require": {
-                "php": "^7.1"
+                "php": "^7.1 || ^8.0"
             },
             "replace": {
                 "myclabs/deep-copy": "self.version"
@@ -183,7 +183,7 @@
                 "shasum": ""
             },
             "require": {
-                "php": "^7.2"
+                "php": "^7.2 || ^8.0"
             },
             "type": "library",
             "extra": {
@@ -237,7 +237,7 @@
             },
             "require": {
                 "ext-filter": "*",
-                "php": "^7.2",
+                "php": "^7.2 || ^8.0",
                 "phpdocumentor/reflection-common": "^2.2",
                 "phpdocumentor/type-resolver": "^1.3",
                 "webmozart/assert": "^1.9.1"
@@ -292,7 +292,7 @@
                 "shasum": ""
             },
             "require": {
-                "php": "^7.2",
+                "php": "^7.2 || ^8.0",
                 "phpdocumentor/reflection-common": "^2.0"
             },
             "require-dev": {
@@ -476,7 +476,7 @@
                 "shasum": ""
             },
             "require": {
-                "php": "7.4"
+                "php": ">=5.3.3"
             },
             "type": "library",
             "extra": {
@@ -528,7 +528,7 @@
                 "shasum": ""
             },
             "require": {
-                "php": "7.4"
+                "php": ">=5.3.3"
             },
             "type": "library",
             "autoload": {
@@ -831,7 +831,7 @@
                 "shasum": ""
             },
             "require": {
-                "php": "7.4"
+                "php": ">=5.6"
             },
             "require-dev": {
                 "phpunit/phpunit": "^8.5"
@@ -886,7 +886,7 @@
                 "shasum": ""
             },
             "require": {
-                "php": "7.4",
+                "php": ">=5.3.3",
                 "sebastian/diff": "~1.2",
                 "sebastian/exporter": "~1.2 || ~2.0"
             },
@@ -1064,7 +1064,7 @@
                 "shasum": ""
             },
             "require": {
-                "php": "7.4",
+                "php": ">=5.3.3",
                 "sebastian/recursion-context": "~2.0"
             },
             "require-dev": {
@@ -1135,7 +1135,7 @@
                 "shasum": ""
             },
             "require": {
-                "php": "7.4"
+                "php": ">=5.3.3"
             },
             "require-dev": {
                 "phpunit/phpunit": "~4.2"
@@ -1190,7 +1190,7 @@
                 "shasum": ""
             },
             "require": {
-                "php": "7.4",
+                "php": ">=5.6",
                 "sebastian/recursion-context": "~2.0"
             },
             "require-dev": {
@@ -1240,7 +1240,7 @@
                 "shasum": ""
             },
             "require": {
-                "php": "7.4"
+                "php": ">=5.3.3"
             },
             "require-dev": {
                 "phpunit/phpunit": "~4.4"
@@ -1297,7 +1297,7 @@
                 "shasum": ""
             },
             "require": {
-                "php": "7.4"
+                "php": ">=5.6.0"
             },
             "type": "library",
             "extra": {
@@ -1343,7 +1343,7 @@
                 "shasum": ""
             },
             "require": {
-                "php": "7.4"
+                "php": ">=5.6"
             },
             "type": "library",
             "extra": {
@@ -1540,7 +1540,7 @@
                 "shasum": ""
             },
             "require": {
-                "php": "^7.2",
+                "php": "^7.2 || ^8.0",
                 "symfony/polyfill-ctype": "^1.8"
             },
             "conflict": {
@@ -1590,7 +1590,7 @@
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
-        "php": "7.4",
+        "php": "7.4.26",
         "ext-ftp": "*"
     },
     "platform-dev": [],
