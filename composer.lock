@@ -22,7 +22,7 @@
                 "shasum": ""
             },
             "require": {
-                "php": "7.0.0"
+                "php": "7.4"
             },
             "require-dev": {
                 "doctrine/coding-standard": "^8.0",
@@ -91,7 +91,7 @@
                 "shasum": ""
             },
             "require": {
-                "php": "7.0"
+                "php": "7.4"
             },
             "type": "library",
             "autoload": {
@@ -476,7 +476,7 @@
                 "shasum": ""
             },
             "require": {
-                "php": "7.0"
+                "php": "7.4"
             },
             "type": "library",
             "extra": {
@@ -528,7 +528,7 @@
                 "shasum": ""
             },
             "require": {
-                "php": "7.0"
+                "php": "7.4"
             },
             "type": "library",
             "autoload": {
@@ -831,7 +831,7 @@
                 "shasum": ""
             },
             "require": {
-                "php": "7.0"
+                "php": "7.4"
             },
             "require-dev": {
                 "phpunit/phpunit": "^8.5"
@@ -886,7 +886,7 @@
                 "shasum": ""
             },
             "require": {
-                "php": "7.0",
+                "php": "7.4",
                 "sebastian/diff": "~1.2",
                 "sebastian/exporter": "~1.2 || ~2.0"
             },
@@ -1064,7 +1064,7 @@
                 "shasum": ""
             },
             "require": {
-                "php": "7.0",
+                "php": "7.4",
                 "sebastian/recursion-context": "~2.0"
             },
             "require-dev": {
@@ -1135,7 +1135,7 @@
                 "shasum": ""
             },
             "require": {
-                "php": "7.0"
+                "php": "7.4"
             },
             "require-dev": {
                 "phpunit/phpunit": "~4.2"
@@ -1190,7 +1190,7 @@
                 "shasum": ""
             },
             "require": {
-                "php": "7.0",
+                "php": "7.4",
                 "sebastian/recursion-context": "~2.0"
             },
             "require-dev": {
@@ -1240,7 +1240,7 @@
                 "shasum": ""
             },
             "require": {
-                "php": "7.0"
+                "php": "7.4"
             },
             "require-dev": {
                 "phpunit/phpunit": "~4.4"
@@ -1297,7 +1297,7 @@
                 "shasum": ""
             },
             "require": {
-                "php": "7.0"
+                "php": "7.4"
             },
             "type": "library",
             "extra": {
@@ -1343,7 +1343,7 @@
                 "shasum": ""
             },
             "require": {
-                "php": "7.0"
+                "php": "7.4"
             },
             "type": "library",
             "extra": {
@@ -1590,7 +1590,7 @@
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
-        "php": "7.0",
+        "php": "7.4",
         "ext-ftp": "*"
     },
     "platform-dev": [],
