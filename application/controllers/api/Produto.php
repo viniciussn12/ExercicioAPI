@@ -44,11 +44,18 @@ class Produto extends RestController{
     }
 
     public function index_put($id){
-
+        $produto = $this->put("produto");
+        $this->FabricanteModel->atualizar($id, $produto, $preco, $qtd, $codfabricante, $codgrupo);
+        $resultado["status"]=true;
+        $resultado["messagem"]="Dados atualizados com sucesso";
+        $this->response($resultado, RestController::HTTP_OK);
     }
 
     public function index_delete($id){
-
+        $this->ProdutoModel->excluir($id);
+        $resultado["status"]=true;
+        $resultado["mensagem"]="Dados excluídos com sucesso";
+        $this->response($resultado, RestController::HTTP_OK);
     }
 
     
